@@ -10,3 +10,24 @@ body {
     color: #b4259c;
     background-color: #e7d943;
 }
+
+.logo {
+    width: 357px;
+    height: 68px;
+}
+
+.purple {
+    background-color: #a3238e;
+}
+
+.red {
+    background-color: #ed1a3b;
+}
+
+.section_header {
+    height: 30px;
+}
+.footer {
+    background-color: #999999;
+    height: 365px;
+}

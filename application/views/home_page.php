@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>Navbar Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -34,20 +34,88 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container">
 
-<?php $this->load->view('navbar'); ?>
+    <?php $this->load->view('navbar'); ?>
+</div>
+<div class="container-fluid">
 
+    <img class="img-responsive" src="http://placehold.it/1920x410"/>
+
+</div>
+<div class="container">
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work.
-            It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-            <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+    <div class="section promocje_cennik">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Promocje</h3>
+                <img class="img-responsive" src="assets/img/promocje.png"/>
+            </div>
+            <div class="col-md-6">
+                <h3>Cennik</h3>
+                <img class="img-responsive" src="assets/img/cennik.png"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="section oferta">
+        <div class="row">
+            <div class="col-md-12 purple section_header"><p>Oferta</p></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Zdjęcia i odbitki</p>
+                <img class="img-responsive" src="assets/img/odbitki.png">
+            </div>
+            <div class="col-md-3">
+                <p>Kalendarze</p>
+                <img class="img-responsive" src="assets/img/kalendarze.png">
+            </div>
+            <div class="col-md-3">
+                <p>Fotoksiążki</p>
+                <img class="img-responsive" src="assets/img/fotoksiazki.png">
+            </div>
+            <div class="col-md-3">
+                <p>Fotoboardy</p>
+                <img class="img-responsive" src="assets/img/fotoboardy.png">
+            </div>
+            <div class="col-md-3">
+                <p>Wydruki cyfrowe</p>
+                <img class="img-responsive" src="assets/img/wydruki.png">
+            </div>
+            <div class="col-md-3">
+                <p>Fotoalbumy</p>
+                <img class="img-responsive" src="assets/img/fotoalbumy.png">
+            </div>
+            <div class="col-md-6">
+                <p>Pozostałe produkty</p>
+                <img class="img-responsive" src="assets/img/pozostale.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="section ostatnio_zakupione">
+        <div class="row">
+            <div class="col-md-12 red section_header"><p>Ostatnio zakupione</p></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/img/zakupione1.png">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/img/zakupione2.png">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/img/zakupione3.png">
+            </div>
+        </div>
+
     </div>
 
 </div> <!-- /container -->
+<div class="container-fluid footer">
 
+
+
+</div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
