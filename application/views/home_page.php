@@ -13,6 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="icon" href="assets/img/favicon.ico">
 
     <title>Navbar Template for Bootstrap</title>
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -38,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <div class="container-fluid">
 
-    <img class="img-responsive" src="http://placehold.it/1920x410"/>
+    <img class="img-responsive" src="assets/img/slider.png"/>
 
 </div>
 <div class="container">
@@ -46,11 +48,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="section promocje_cennik">
         <div class="row">
             <div class="col-md-6">
-                <h3>Promocje</h3>
+                <p>Promocje</p>
                 <img class="img-responsive" src="assets/img/promocje.png"/>
             </div>
             <div class="col-md-6">
-                <h3>Cennik</h3>
+                <p>Cennik</p>
                 <img class="img-responsive" src="assets/img/cennik.png"/>
             </div>
         </div>
@@ -112,7 +114,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </div> <!-- /container -->
 <div class="container-fluid footer">
+    <div class="container">
+        <div class="display-inline">
+            <img src="assets/img/logo_white.png">
+            <ul>
+                <li>Regulamin</li>
+                <li>Polityka prywatności</li>
+                <li>E-mail: kontakt@superfoto.pl</li>
+            </ul>
+            <img src="assets/img/fb.png">
+        </div>
+        <hr>
+        <p><b>Superfoto.pl</b> to internetowy fotolab, oferujący wywoływanie zdjęć przez internet, odbitki i fotoprezenty ze zdjęć cyfrowych.
+            Prześlij do nas przez Internet swoje zdjęcia cyfrowe, wykonamy z nich dla Ciebie najwyższej jakości odbitki lub oryginalne fotoprezenty:
+            wspaniałe albumy - fotoksiążki, kalendarze ścienne i biurkowe, fotokubki, i wiele innych gadżetów, wszystkie z Twoimi zdjęciami.
+            Fotoksiążka ze zdjęciami to wspaniały prezent dla Twoich bliskich.</p>
+    </div>
 
+    </div>
 
 
 </div>

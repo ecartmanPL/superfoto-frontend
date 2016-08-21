@@ -1,19 +1,7 @@
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.navbar {
-    margin-bottom: 20px;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #b4259c;
-    background-color: #e7d943;
-}
-
-.logo {
-    width: 357px;
-    height: 68px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Open Sans';
 }
 
 .purple {
@@ -29,5 +17,30 @@ body {
 }
 .footer {
     background-color: #999999;
-    height: 365px;
+
+}
+
+.display-inline > img, .display-inline > ul > li, .display-inline > ul {
+    display: inline;
+}
+
+.navbar-default {
+    background-color: greenyellow;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-nav > li > a {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
